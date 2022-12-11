@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <script
+      src="https://kit.fontawesome.com/876cca07e6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <div class="topSectionBars">
+          <div class="logoImgClass">
+            <img src="Port1.png" alt="logo" class="logo" />
+          </div>
+          <div class="topSectionNavsClass">
+            <nav>
+              <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#languages">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="header-text">
+          <p>Full Stack Web Developer</p>
+          <h1>Hi,I am <span>Ravi Singh</span><br />From Delhi(India)</h1>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------about---------------------------------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about1">
+            <img src="pic4.jpg" alt="pic4" class="pic4" />
+          </div>
+          <div class="about2">
+            <h1 class="subtitle">About me</h1>
+            <p>
+              Hi, I am Ravi Singh and I live in Delhi with My Family I have
+              completed my Diploma in Mechanical Engineering from PM Group of
+              Institutions. I have learnt too many things in those 3 years I
+              spent in college. I understood that the Mechanical industry is not
+              for me then I chose the IT field and I started to find a way to
+              enter this field then I found Newton School which is helping many
+              students like me to pursue their dream.
+            </p>
+            <div class="tab-title">
+              <p class="link1 active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="link1" onclick="opentab('education')">Education</p>
+              <p class="link1" onclick="opentab('hobbies')">Hobbies</p>
+            </div>
+            <div class="list-content active-tab" id="skills">
+              <ul>
+                <li><span>Java</span><br />Java Programming</li>
+                <li><span>DSA</span><br />Data Structures and Algo.</li>
+                <li>
+                  <span>HTML/CSS/JAVASCRIPT</span><br />HTML and CSS with
+                  JavaScript for Web Development.
+                </li>
+                <li><span>Github</span><br />Github for Version Control.</li>
+              </ul>
+            </div>
+            <div class="list-content" id="education">
+              <ul>
+                <li>
+                  <span>10th</span><br />Passed 10th class from <b>CBSE</b>with
+                  <b>8.2 CGPA</b>.
+                </li>
+                <li>
+                  <span>12th</span><br />Passed 12th from <b>NIOS</b>with
+                  <b>60%</b> marks.
+                </li>
+                <li>
+                  <span>Diploma</span><br />Diploma in Mechanical Engineering
+                  with <b>70%</b>marks.
+                </li>
+              </ul>
+            </div>
+            <div class="list-content" id="hobbies">
+              <ul>
+                <li>
+                  <span>Football</span><br />I love to Play Football Whenever i
+                  get time.
+                </li>
+                <li>
+                  <span>DSA</span><br />I play Pc Games and my Favourite game
+                  series is <b>Call of Duty</b>.
+                </li>
+                <li>
+                  <span>Learning</span><br />I learn new things in my Freetime.
+                </li>
+                <li>
+                  <span>Walking</span><br />I like to walk that helps me to
+                  think more.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------language tab--------------- -->
+    <div id="languages">
+      <h1 class="subtitle">Languages</h1>
+      <div class="containers">
+        <div class="lang1">
+          <div>
+            <i class="fa-brands fa-java"></i>
+            <h2>Java</h2>
+          </div>
+        </div>
+        <div class="lang1">
+          <div>
+            <i class="fa-brands fa-css3-alt"></i>
+            <h2>Css</h2>
+          </div>
+        </div>
+        <div class="lang1">
+          <div>
+            <i class="fa-brands fa-js"></i>
+            <h2>Javascript</h2>
+          </div>
+        </div>
+        <div class="lang1">
+          <div>
+            <i class="fa-brands fa-react"></i>
+            <h2>ReactJs</h2>
+          </div>
+        </div>
+        <div class="lang1">
+          <div>
+            <i class="fa-brands fa-html5"></i>
+            <h2>HTML</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------portfolio-------------------- -->
+
+    <div id="portfolio">
+      <div class="subtitle">Portfolio</div>
+      <div class="containers">
+        <div class="port1 ports1">
+          <a
+            href="https://ravi08371.github.io/Responsive-Resume-using-CSS-Grid---Entities-and-Relations-Basic-Selectors-Comb---e3hxgk43r273/"
+            target="_blank"
+          >
+            <!-- <img src="proImg1.jpg" alt="workimg" /> -->
+            <p>Responsive Resume</p>
+            <i class="fa-solid fa-link"></i>
+          </a>
+        </div>
+        <div class="port1 ports2">
+          <a href="https://ravi08371.github.io/E-commerce-/" target="_blank">
+            <!-- <img src="proImg2.png" alt="workimg" /> -->
+            <p>Ecommerce</p>
+            <i class="fa-solid fa-link"></i>
+          </a>
+        </div>
+        <div class="port1 ports3">
+          <a href="https://codepencodeeditor.netlify.app/" target="_blank">
+            <!-- <img src="proImg3.png" alt="workimg" /> -->
+            <p>Code Editor</p>
+            <i class="fa-solid fa-link"></i>
+          </a>
+        </div>
+        <div class="port1 ports4">
+          <a href="https://weatherappdevs.netlify.app/" target="_blank">
+            <!-- <img src="proImg4.png" alt="workimg" /> -->
+            <p>Weather App</p>
+            <i class="fa-solid fa-link"></i>
+          </a>
+        </div>
+        <div class="port1 ports5">
+          <a
+            href="https://ravi08371.github.io/Notes-Taking-Website-/"
+            target="_blank"
+          >
+            <!-- <img src="proImg5.png" alt="workimg" /> -->
+            <p>To-Do App</p>
+            <i class="fa-solid fa-link"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------about me------------------------ -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact me</h1>
+            <p>ravi08371@gmail.com</p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/ravisingh.19/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://twitter.com/ravi08371" target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://github.com/ravi08371" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/ravi-singh-8b0132120/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input name="name" type="text" placeholder="Your Name" required />
+              <input
+                name="email"
+                type="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="messege"
+                rows="6"
+                placeholder="Your Thoughts"
+              ></textarea>
+              <button type="submit" class="btn">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------------------JS CODE------------------------ -->
+    <script>
+      var links = document.getElementsByClassName("link1");
+      var contents = document.getElementsByClassName("list-content");
+      function opentab(tabname) {
+        for (link of links) {
+          link.classList.remove("active-link");
+        }
+        for (content of contents) {
+          content.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
